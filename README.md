@@ -10,7 +10,7 @@ MINST提供了从0到9共10个**灰度手绘数字**的图像，每个数字约�
 
 每个图像都由一个28 × 28​的矩阵组成，矩阵上的每个点的取值范围为[0, 255]​，用来表示不同的灰度，如图所示：
 
-![](https://github.com/bipy/Digit-Recognizer/blob/master/source/1.png)
+![](https://cdn.jsdelivr.net/gh/bipy/CDN/repo/Digit-Recognizer/source/1.png)
 
 机器需要完成一个任务：通过对数万张图片的学习，获得识别图片的能力。
 
@@ -44,9 +44,9 @@ MINST提供了从0到9共10个**灰度手绘数字**的图像，每个数字约�
 
     使用softmax激活函数将输出归一化
 
-![](https://github.com/bipy/Digit-Recognizer/blob/master/source/eq.png)
+![](https://cdn.jsdelivr.net/gh/bipy/CDN/repo/Digit-Recognizer/source/eq.png)
 
-![](https://github.com/bipy/Digit-Recognizer/blob/master/source/6.png)
+![](https://cdn.jsdelivr.net/gh/bipy/CDN/repo/Digit-Recognizer/source/6.png)
 
 ****
 
@@ -54,7 +54,7 @@ MINST提供了从0到9共10个**灰度手绘数字**的图像，每个数字约�
 
 它结合了AdaGrad和Momentum的优点。Momentum可以看作是一个顺着斜坡滑下的球，而Adam的行为就像是一个带有摩擦的沉重的球——因此，它更喜欢在误差表面上保持平坦的最小值，在梯度优化算法中表现出十足的优势。
 
-![](https://github.com/bipy/Digit-Recognizer/blob/master/source/7.gif)
+![](https://cdn.jsdelivr.net/gh/bipy/CDN/repo/Digit-Recognizer/source/7.gif)
 
 ## Result
 
@@ -72,7 +72,7 @@ MINST提供了从0到9共10个**灰度手绘数字**的图像，每个数字约�
 
 > **卷积神经网络**（Convolutional Neural Networks, CNN）是一类包含卷积计算且具有深度结构的前馈神经网络（Feedforward Neural Networks），是深度学习（deep learning）的代表算法之一 。卷积神经网络具有表征学习（representation learning）能力，能够按其阶层结构对输入信息进行平移不变分类（shift-invariant classification），因此也被称为“平移不变人工神经网络（Shift-Invariant Artificial Neural Networks, SIANN）”  。 
 
-![](https://github.com/bipy/Digit-Recognizer/blob/master/source/8.png)
+![](https://cdn.jsdelivr.net/gh/bipy/CDN/repo/Digit-Recognizer/source/8.png)
 
 上图为经典的神经网络模型LeNet-5的结构示意图，网络输入是一个32 × 32​ 的手写数字图像，输出是其识别结果， CNN 复合多个"卷积层"和"采样层"对输入信号进行加工，然后在连接层实现与输出目标之间的映射。
 
