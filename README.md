@@ -18,7 +18,7 @@ MINST提供了从0到9共10个**灰度手绘数字**的图像，每个数字约�
 
 ****
 
-**详细讨论请见[基于卷积神经网络的MINST手写数字识别](https://zhengrh.com/blog/Digit-Recognizer/)**
+**详细讨论请见[基于卷积神经网络的MINST手写数字识别](https://blog.zhengrh.com/post/Digit-Recognizer/)**
 
 
 
